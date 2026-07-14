@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.joblib
+*.pkl
+*.parquet
+*.csv
+runs/
+data/
+.DS_Store

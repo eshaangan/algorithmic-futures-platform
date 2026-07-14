@@ -1,0 +1,13 @@
+strategy_id: synthetic_orb_demo
+holdout:
+  start: 2025-01-01
+  end: 2025-03-31
+n_trials: 12
+gate:
+  min_trades: 30
+  min_months: 3
+  min_positive_month_fraction: 0.67
+  min_dsr: 0.8
+parameters:
+  opening_minutes: 30
+  cost_bps: 1.5
