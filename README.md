@@ -4,6 +4,12 @@ A compact, reproducible futures research platform connecting chunked market-data
 
 > Research and engineering demonstration only. Not financial advice. Every chart and fixture is synthetic; no displayed number represents live or historical strategy performance.
 
+## Public portfolio scope
+
+> **This repository is a deliberately curated public extraction of a larger private research and execution system.**
+
+The portable research algorithms, validation methods, risk controls, synthetic examples, and tests are included to demonstrate the system's technical design. Live brokerage integrations, cloud deployment infrastructure, credentials, proprietary market data, trained model artifacts, account-specific configuration, and production runners remain private and are intentionally excluded.
+
 ## System at a glance
 
 ```mermaid
@@ -17,8 +23,6 @@ flowchart LR
   G --> H[Risk engine]
   H --> I[Point-in-time replay]
 ```
-
-The repository is intentionally curated: portable algorithms extracted from a larger private research system, with live brokerage, cloud deployment, credentials, private data, trained models, and production runners excluded.
 
 ## Validation and overfitting control
 
